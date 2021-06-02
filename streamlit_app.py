@@ -4,7 +4,8 @@ import streamlit as st
 from presidio_analyzer import AnalyzerEngine
 from presidio_anonymizer import AnonymizerEngine
 from presidio_anonymizer.entities.engine import OperatorConfig
-from presidio_evaluator.data_generator.presidio_perturb import PresidioPerturb
+from presidio_research.presidio_evaluator.data_generator.presidio_perturb import PresidioPerturb
+
 from presidio_image_redactor import ImageRedactorEngine
 from PIL import Image
 import pandas as pd
