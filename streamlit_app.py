@@ -105,7 +105,7 @@ st.title("D.ANON")
 
 st.markdown("""
     D.ANON (Data Anonymization Tool) is a software that finds and hides all the sensitive data
-    such as:(Name, Email, Telephone Number and etc.) from a text.
+    such as: Name, Email, Telephone Number and etc. from a text.
 
     The data inserted on the app are not stored or memorized, 
     data privacy first priority ;)
@@ -113,7 +113,7 @@ st.markdown("""
 st.image("strem_img/dataprotection_shutterstock_382458778.jpg")
 
 st.markdown("""
-To try our tool insert a text or an image containing sensitive information then press the button Anonymize Data.
+Try our tool, insert a text or an image containing sensitive information then press the button Anonymize Data.
 \n(Ex. Hi I'm Mark Spencer and I live in Whashington)
 """)
 
@@ -135,11 +135,11 @@ st.markdown("More info")
 with st.beta_expander("Why do we need Data Anonymization?"):
     st.markdown("""
     ### "Data is the new oil" 
-    \nThis is the concept behind this project. 
+    \nThe concept behind this project. 
     Today we live in society where the Data are a new technology assets for companies and goverments, by analyzing and processing those data
     we can build new technologies and products that can improve our lives drastically. 
-    However such as all the new disruptive technologies there's always a negative side,
-    as Data are an important asset protecting those has become a priority in the tech industry and for
+    However, such as all the new disruptive technologies, there's always a negative side,
+    as Data is an important asset and protecting those has become a priority in the tech industry and for
     goverments as well, one example is the General Data Protection Regulation (GDPR) from EU that guide the private
     entities on how to store and process the data collected from the users.
     The aim of this tool is to find, hide or replace with fake synthetic data all the sensitive information
@@ -147,7 +147,7 @@ with st.beta_expander("Why do we need Data Anonymization?"):
     
     \nWe define as sensitive information all of those kind of data that are gathered from private entities:
     Name, Surname, Location, Dates, Nationalities, Emails, Telephone Numbers, Domains, Credid Card Numbers, Fiscal Code and etc.
-    \nFor any other information, feel free to check out the github repo(on the sidebar) or contact me via LinkedIn or Email.
+    \nFor any other information, feel free to check out the github repo (on the sidebar) or contact me via LinkedIn or Email.
             """
                 )
 hide_streamlit_style = """
