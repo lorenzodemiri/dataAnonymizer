@@ -81,6 +81,22 @@ st.sidebar.markdown(
     <a href="https://spacy.io/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/SpaCy_logo.svg/1200px-SpaCy_logo.svg.png"  width="90" /></a>
     
     ### ► Spacy
+    ##
+    <a href="https://spacy.io/"><img src="https://stanfordnlp.github.io/stanza/assets/images/stanza.png"  width="120" /></a>
+    
+    ### ► Stanza
+    #
+
+    ## Repo Link :
+    #  
+    <a href=""><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"  width="120" /></a>
+    #
+
+    ## Contact Me :
+    #  
+    <a href="https://www.linkedin.com/in/lorenzo-demiri/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  width="120" /></a>
+    <a href="https://twitter.com/LorenzoDemiri"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+    
     """, 
     unsafe_allow_html=True
 )
@@ -105,7 +121,7 @@ text = st.text_area("Insert text to Anonymize")
 st.markdown("""
 ## or
 ## """)
-file_upload = st.file_uploader("Upload an image containing a documente to Anonymize")
+file_upload = st.file_uploader("Upload an image containing a documente to Anonymize or with your smartphone snap a photo to document.")
 
 button = st.button("Anonymize Data")
 
