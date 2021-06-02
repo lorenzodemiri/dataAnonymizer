@@ -150,3 +150,10 @@ with st.beta_expander("Why do we need Data Anonymization?"):
     \nFor any other information, feel free to check out the github repo(on the sidebar) or contact me via LinkedIn or Email.
             """
                 )
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
