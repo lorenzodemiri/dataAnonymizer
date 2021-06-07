@@ -197,7 +197,7 @@ st.sidebar.markdown(
     # Lorenzo Demiri
     ### AI Engineer
    <a href="https://ibb.co/DrXkpvD"><img src="https://i.ibb.co/8Y32cfD/DSC06306.jpg" width="200" border="0"></a>
-   ###  Email : [lorenzo.demiri96@gmail.com]()
+   ###  📫 : [lorenzo.demiri96@gmail.com]()
     <a href="https://www.linkedin.com/in/lorenzo-demiri/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  width="120" /></a>
     <a href="https://twitter.com/LorenzoDemiri"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
     
@@ -236,6 +236,7 @@ st.markdown("""
                     h6 {
                     font-family: 'Poiret One';
                     text-align: center;
+                    color: #E67E22;
                     }
                     p {
                     font-family: 'Poiret One';
