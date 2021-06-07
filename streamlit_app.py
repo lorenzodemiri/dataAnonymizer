@@ -163,7 +163,7 @@ def anon_text(text, pipeline = False):
 def anon_image(image):
     image = Image.open(image)
     ImageEngine = ImageRedactorEngine()
-    redacted_image = ImageEngine.redact(image, (96, 20, 40))
+    redacted_image = ImageEngine.redact(image, (255, 128, 0))
     st.image(redacted_image)
 
 st.sidebar.markdown(
@@ -264,7 +264,7 @@ st.markdown("""
 
 st.markdown("""
     SECRETUM (Data Anonymization Tool) is a software that finds and hides all the sensitive data
-    such as: Name, Email, Telephone Number and etc. from a text.
+    such as: Name, Email, Telephone Number and etc. in a text.
 
     The data inserted on the app are not stored or memorized, 
     data privacy first priority ;)
