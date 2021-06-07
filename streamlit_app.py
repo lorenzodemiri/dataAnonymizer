@@ -163,7 +163,7 @@ def anon_text(text, pipeline = False):
 def anon_image(image):
     image = Image.open(image)
     ImageEngine = ImageRedactorEngine()
-    redacted_image = ImageEngine.redact(image, (255, 255, 255))
+    redacted_image = ImageEngine.redact(image, (96, 20, 40))
     st.image(redacted_image)
 
 st.sidebar.markdown(
@@ -193,8 +193,11 @@ st.sidebar.markdown(
     <a href=""><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"  width="120" /></a>
     #
 
-    ## Contact Me :
-    ###  Email : [lorenzo.demiri96@gmail.com]()
+    #### About Me :
+    # Lorenzo Demiri
+    ### AI Engineer
+   <a href="https://ibb.co/DrXkpvD"><img src="https://i.ibb.co/8Y32cfD/DSC06306.jpg" width="200" border="0"></a>
+   ###  Email : [lorenzo.demiri96@gmail.com]()
     <a href="https://www.linkedin.com/in/lorenzo-demiri/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  width="120" /></a>
     <a href="https://twitter.com/LorenzoDemiri"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
     
@@ -295,6 +298,8 @@ elif button and file_upload is not None:
     anon_image(file_upload)
 
 st.markdown("More info about this project")
+with st.beta_expander("Engines in Details"):
+    st.markdown("""<a href="https://ibb.co/KLPdCYy"><img src="https://i.ibb.co/2s9xXwK/Screenshot-from-2021-06-07-10-15-42.png" border="0"></a>""", unsafe_allow_html=True)
 with st.beta_expander("Why do we need Data Anonymization?"):
     st.markdown("""
     ### "Data is the new oil" 
