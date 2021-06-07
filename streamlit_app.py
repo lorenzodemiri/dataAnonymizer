@@ -318,5 +318,10 @@ with st.beta_expander("Why do we need Data Anonymization?"):
                 )
 with st.beta_expander("Engines in Details"):
     st.markdown("""<a href="https://ibb.co/KLPdCYy"><img src="https://i.ibb.co/2s9xXwK/Screenshot-from-2021-06-07-10-15-42.png" border="0"></a>""", unsafe_allow_html=True)
-
-
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
