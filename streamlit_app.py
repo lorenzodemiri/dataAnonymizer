@@ -104,7 +104,7 @@ def show_pipeline(analyzer_results, perturbed_text, original_text: str):
                     </style>
                     </head>
                     <body>
-                    <p>{}</p>
+                    <h3>{}</h3>
                     </body >
                     """.format(perturbed_text)
         st.markdown(temp_str ,unsafe_allow_html=True)
@@ -139,11 +139,11 @@ def anon_text(text, pipeline = False):
     else:
         st.markdown(
             """
-            <p><h3 style="color:LightCoral;">Analysis Result:</h3></p>
+            <p><h3 style="color:#E67E22;">Analysis Result:</h3></p>
 
             ### {}
             
-            <p><h3 style="color:LightCoral;">Perturbed:</h3></p>
+            <p><h3 style="color:#E67E22;">Perturbed:</h3></p>
 
             ### {}
             ###
