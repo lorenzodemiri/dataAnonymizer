@@ -208,7 +208,7 @@ st.markdown("""
                     h1 {
                     font-family: 'Poiret One';
                     text-align: center;
-                    font-size: 70px;
+                    font-size: 65px;
                     }
                     h2 {
                     font-family: 'Poiret One';
