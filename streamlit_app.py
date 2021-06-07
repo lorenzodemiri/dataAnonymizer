@@ -264,7 +264,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown("""
-    SECRETUM (Data Anonymization Tool) is a software that finds and hides all the sensitive data in a text
+    S E C R E T U M (Data Anonymization Tool) is a software that finds and hides all the sensitive data in a text
     such as: Name, Email, Telephone Number and etc.
 
     The data inserted on the app are not stored or memorized, 
