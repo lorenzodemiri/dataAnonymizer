@@ -188,6 +188,11 @@ st.sidebar.markdown(
     ### ► Stanza
     #
 
+    ## Project backed by:
+    <a href="https://positivus.io/"><img src="https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/c0f2ff7q0txvf7gzzedf"  width="150" /></a>
+    <a href="https://strive.school/"><img src="https://strive.school/assets/strive_white.png"  width="120" /></a>
+    
+
     ## Repo Link :
     #  
     <a href=""><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"  width="120" /></a>
