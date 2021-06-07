@@ -298,8 +298,6 @@ elif button and file_upload is not None:
     anon_image(file_upload)
 
 st.markdown("More info about this project")
-with st.beta_expander("Engines in Details"):
-    st.markdown("""<a href="https://ibb.co/KLPdCYy"><img src="https://i.ibb.co/2s9xXwK/Screenshot-from-2021-06-07-10-15-42.png" border="0"></a>""", unsafe_allow_html=True)
 with st.beta_expander("Why do we need Data Anonymization?"):
     st.markdown("""
     ### "Data is the new oil" 
@@ -318,11 +316,7 @@ with st.beta_expander("Why do we need Data Anonymization?"):
     \nFor any other information, feel free to check out the github repo (on the sidebar) or contact me via LinkedIn or Email.
             """
                 )
+with st.beta_expander("Engines in Details"):
+    st.markdown("""<a href="https://ibb.co/KLPdCYy"><img src="https://i.ibb.co/2s9xXwK/Screenshot-from-2021-06-07-10-15-42.png" border="0"></a>""", unsafe_allow_html=True)
 
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
