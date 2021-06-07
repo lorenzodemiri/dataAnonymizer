@@ -10,6 +10,9 @@ from PIL import Image
 import pandas as pd
 import spacy
 
+st.set_page_config(layout="wide")
+
+
 def show_pipeline(analyzer_results, perturbed_text, original_text: str):
     TEXT_LINE = """
             <head>
@@ -160,12 +163,13 @@ def anon_text(text, pipeline = False):
 def anon_image(image):
     image = Image.open(image)
     ImageEngine = ImageRedactorEngine()
-    redacted_image = ImageEngine.redact(image, (255, 192, 203))
+    redacted_image = ImageEngine.redact(image, (255, 255, 255))
     st.image(redacted_image)
 
 st.sidebar.markdown(
     """
-    # Data Anonymization Tool
+    # S E C R E T U M
+    #### Additional info:
     ###
     <img src="https://media.giphy.com/media/lhwgPv0AuJehQ2S8cb/giphy.gif"  width="300" />
 
@@ -190,7 +194,7 @@ st.sidebar.markdown(
     #
 
     ## Contact Me :
-    #  
+    ###  Email : [lorenzo.demiri96@gmail.com]()
     <a href="https://www.linkedin.com/in/lorenzo-demiri/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  width="120" /></a>
     <a href="https://twitter.com/LorenzoDemiri"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
     
